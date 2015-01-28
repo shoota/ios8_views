@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  SampleTableViewController.h
 //  views
 //
 //  Created by 熊野修太 on 2015/01/28.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
-
+@interface SampleTableViewController : UITableViewController <UITableViewDataSource, UITableViewDelegate>
 
 @end
-

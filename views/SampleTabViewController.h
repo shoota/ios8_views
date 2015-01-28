@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  SampleTabViewController.h
 //  views
 //
 //  Created by 熊野修太 on 2015/01/28.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
-
+@interface SampleTabViewController : UIViewController
 
 @end
-

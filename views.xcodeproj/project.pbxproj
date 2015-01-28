@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		BE3FD9F81A790E3300C2D7FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3FD9F71A790E3300C2D7FA /* main.m */; };
 		BE3FD9FB1A790E3300C2D7FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3FD9FA1A790E3300C2D7FA /* AppDelegate.m */; };
-		BE3FD9FE1A790E3300C2D7FA /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3FD9FD1A790E3300C2D7FA /* FirstViewController.m */; };
-		BE3FDA011A790E3300C2D7FA /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3FDA001A790E3300C2D7FA /* SecondViewController.m */; };
 		BE3FDA041A790E3300C2D7FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE3FDA021A790E3300C2D7FA /* Main.storyboard */; };
 		BE3FDA061A790E3300C2D7FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE3FDA051A790E3300C2D7FA /* Images.xcassets */; };
 		BE3FDA091A790E3300C2D7FA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE3FDA071A790E3300C2D7FA /* LaunchScreen.xib */; };
 		BE3FDA151A790E3300C2D7FA /* viewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3FDA141A790E3300C2D7FA /* viewsTests.m */; };
+		BE3FDA201A79101F00C2D7FA /* SampleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3FDA1F1A79101F00C2D7FA /* SampleTableViewController.m */; };
+		BE3FDA231A7912E000C2D7FA /* SampleTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3FDA221A7912E000C2D7FA /* SampleTabViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,16 +33,16 @@
 		BE3FD9F71A790E3300C2D7FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BE3FD9F91A790E3300C2D7FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BE3FD9FA1A790E3300C2D7FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BE3FD9FC1A790E3300C2D7FA /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		BE3FD9FD1A790E3300C2D7FA /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		BE3FD9FF1A790E3300C2D7FA /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		BE3FDA001A790E3300C2D7FA /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		BE3FDA031A790E3300C2D7FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE3FDA051A790E3300C2D7FA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BE3FDA081A790E3300C2D7FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BE3FDA0E1A790E3300C2D7FA /* viewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = viewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE3FDA131A790E3300C2D7FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE3FDA141A790E3300C2D7FA /* viewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = viewsTests.m; sourceTree = "<group>"; };
+		BE3FDA1E1A79101F00C2D7FA /* SampleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleTableViewController.h; sourceTree = "<group>"; };
+		BE3FDA1F1A79101F00C2D7FA /* SampleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleTableViewController.m; sourceTree = "<group>"; };
+		BE3FDA211A7912E000C2D7FA /* SampleTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleTabViewController.h; sourceTree = "<group>"; };
+		BE3FDA221A7912E000C2D7FA /* SampleTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleTabViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,12 +84,12 @@
 		BE3FD9F41A790E3300C2D7FA /* views */ = {
 			isa = PBXGroup;
 			children = (
+				BE3FDA1E1A79101F00C2D7FA /* SampleTableViewController.h */,
+				BE3FDA1F1A79101F00C2D7FA /* SampleTableViewController.m */,
+				BE3FDA211A7912E000C2D7FA /* SampleTabViewController.h */,
+				BE3FDA221A7912E000C2D7FA /* SampleTabViewController.m */,
 				BE3FD9F91A790E3300C2D7FA /* AppDelegate.h */,
 				BE3FD9FA1A790E3300C2D7FA /* AppDelegate.m */,
-				BE3FD9FC1A790E3300C2D7FA /* FirstViewController.h */,
-				BE3FD9FD1A790E3300C2D7FA /* FirstViewController.m */,
-				BE3FD9FF1A790E3300C2D7FA /* SecondViewController.h */,
-				BE3FDA001A790E3300C2D7FA /* SecondViewController.m */,
 				BE3FDA021A790E3300C2D7FA /* Main.storyboard */,
 				BE3FDA051A790E3300C2D7FA /* Images.xcassets */,
 				BE3FDA071A790E3300C2D7FA /* LaunchScreen.xib */,
@@ -224,9 +224,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE3FDA011A790E3300C2D7FA /* SecondViewController.m in Sources */,
+				BE3FDA231A7912E000C2D7FA /* SampleTabViewController.m in Sources */,
 				BE3FD9FB1A790E3300C2D7FA /* AppDelegate.m in Sources */,
-				BE3FD9FE1A790E3300C2D7FA /* FirstViewController.m in Sources */,
+				BE3FDA201A79101F00C2D7FA /* SampleTableViewController.m in Sources */,
 				BE3FD9F81A790E3300C2D7FA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
