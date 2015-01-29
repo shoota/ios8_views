@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SampleTabViewController : UIViewController
+@interface SampleTabViewController : UIViewController <UITableViewDataSource, UITabBarControllerDelegate>
 
 @end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE15ECB21A7A696200E4BEC7 /* ParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE15ECB11A7A696200E4BEC7 /* ParentViewController.m */; };
 		BE3FD9F81A790E3300C2D7FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3FD9F71A790E3300C2D7FA /* main.m */; };
 		BE3FD9FB1A790E3300C2D7FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3FD9FA1A790E3300C2D7FA /* AppDelegate.m */; };
 		BE3FDA041A790E3300C2D7FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE3FDA021A790E3300C2D7FA /* Main.storyboard */; };
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BE15ECB01A7A696200E4BEC7 /* ParentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParentViewController.h; sourceTree = "<group>"; };
+		BE15ECB11A7A696200E4BEC7 /* ParentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParentViewController.m; sourceTree = "<group>"; };
 		BE3FD9F21A790E3300C2D7FA /* views.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = views.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE3FD9F61A790E3300C2D7FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE3FD9F71A790E3300C2D7FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -91,6 +94,8 @@
 				BE3FD9F91A790E3300C2D7FA /* AppDelegate.h */,
 				BE3FD9FA1A790E3300C2D7FA /* AppDelegate.m */,
 				BE3FDA021A790E3300C2D7FA /* Main.storyboard */,
+				BE15ECB01A7A696200E4BEC7 /* ParentViewController.h */,
+				BE15ECB11A7A696200E4BEC7 /* ParentViewController.m */,
 				BE3FDA051A790E3300C2D7FA /* Images.xcassets */,
 				BE3FDA071A790E3300C2D7FA /* LaunchScreen.xib */,
 				BE3FD9F51A790E3300C2D7FA /* Supporting Files */,
@@ -226,6 +231,7 @@
 			files = (
 				BE3FDA231A7912E000C2D7FA /* SampleTabViewController.m in Sources */,
 				BE3FD9FB1A790E3300C2D7FA /* AppDelegate.m in Sources */,
+				BE15ECB21A7A696200E4BEC7 /* ParentViewController.m in Sources */,
 				BE3FDA201A79101F00C2D7FA /* SampleTableViewController.m in Sources */,
 				BE3FD9F81A790E3300C2D7FA /* main.m in Sources */,
 			);
@@ -418,6 +424,7 @@
 				BE3FDA1A1A790E3300C2D7FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE3FDA1B1A790E3300C2D7FA /* Build configuration list for PBXNativeTarget "viewsTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +433,7 @@
 				BE3FDA1D1A790E3300C2D7FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
